@@ -12,7 +12,7 @@
 }
 
 .last-border{
-    height: 30px;
+    height: 40px;
 }
 
 .myBottom{
@@ -21,4 +21,11 @@
 
 .profExperience{
     font-weight: bold; padding-bottom: 3px;
+}
+
+.download-btn{
+    color: white; font-weight: bold;
+}
+.download-btn:hover{
+    color: dodgerblue;
 }
