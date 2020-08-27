@@ -3,7 +3,7 @@
 }
 
 .myBorder{
-    height: 25px;
+    height: 35px;
     width: 100%;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .profExperience{
-    font-weight: bold; padding-bottom: 3px;
+    font-weight: bold; padding-bottom: 5px; padding-top: 5px;
 }
 
 .download-btn{
@@ -28,4 +28,8 @@
 }
 .download-btn:hover{
     color: dodgerblue;
+}
+
+.header-icons{
+    padding-top: 10px; padding-bottom: 10px;
 }

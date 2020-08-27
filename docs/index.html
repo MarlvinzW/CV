@@ -33,34 +33,41 @@
 	<div class="container" style="padding-top: 25px; padding-bottom: 20px">
 		<div class="row">
 			<!--name-->
-			<div class="col-md-3 text-center">
-				<h2 class="bold">Marlvin Chihota</h2>
-			</div>
-			<!--address-->
 			<div class="col-md-4 text-center">
-				<text>
-					<i class="fa fa-home mr-3"></i><span>414T Runyanga St , Dangamvura Mutare<br> Zimbabwe</span>
-				</text>
+				<h1 class="bold">Marlvin Chihota</h1>
+				<center>
+					<a href="http://marlvinzw.me/">www.marlvinzw.me</a>
+				</center>
 			</div>
 			<!--links-->
-			<div class="col-md-5 text-center">
+			<div class="col-md-8" style="text-align: right">
 				<text>
-					<i class="fa fa-phone-alt mr-3"></i><span>+263 77 558 0596</span> <br>
-					<i class="fa fa-envelope mr-3"></i><span>info@marlvinzw.me<br></span> <br>
-					<i class="fa fa-code mr-3"></i><span>https://github.com/MarlvinzW</span>
+					<span class="header-icons">+263 77 558 0596</span><i class="fa fa-phone-alt ml-3"></i> <br>
+					<span class="header-icons">Harare , Zimbabwe</span><i class="fa fa-location-arrow ml-3"></i> <br>
+					<span class="header-icons"> info@marlvinzw.me / marlvinchihota@gmail.com </span><i class="fa fa-envelope ml-3"></i> <br>
+					<span class="header-icons">https://github.com/MarlvinzW</span><i class="fa fa-code ml-3"></i>
 				</text>
 			</div>
 		</div>
 	</div>
 
 	<!--border-->
-	<div class="container-fluid bg-dark myBorder"></div>
+	<div class="container-fluid bg-dark myBorder text-center">
+		<button class="btn btn-md bg-transparent mb-2 download-btn" onclick="download()">
+			Download CV
+		</button>
+		<script>
+			function download() {
+				location.href='Chihota Marlvin.pdf';
+			}
+		</script>
+	</div>
 
 	<!--summary-->
 	<div class="container mt-2 myTop">
 		<h4 class="bold">Summary</h4>
 		<p>Self driven, ability to think through a problem and come up wit a valid solution.Very passionate about software development.</p>
-		<p>Currently studying towards a Btech in Computer Science at Harare Institute of Technology</p>
+		<p>Currently studying towards a BTech in Computer Science at Harare Institute of Technology</p>
 	</div>
 
 	<!--career objective -->
@@ -90,37 +97,41 @@
 	<div class="container mt-2">
 		<h4 class="bold">Technical Experience</h4>
 		<ul>
-			<li><text class="bold">Programming</text> &nbsp;&nbsp; : &nbsp;&nbsp; Python(Django, Flask, FastApi) &nbsp;, Dart(Flutter)&nbsp;, C#&nbsp;, VanillaJS</li>
+			<li><text class="bold">Programming</text> &nbsp;&nbsp; : &nbsp;&nbsp; Python(Django / Flask) &nbsp;, Java(SpringBoot)&nbsp;, Dart(Flutter)&nbsp;, React , Javascript&nbsp;</li>
 			<li><text class="bold">Databases</text> &nbsp;&nbsp; : &nbsp;&nbsp; PostgreSQL &nbsp; , MySQL</li>
 			<li><text class="bold">Operating Systems</text> &nbsp;&nbsp; : &nbsp;&nbsp; Windows ,&nbsp; Ubuntu,&nbsp; CentOS</li>
-			<li><text class="bold">Designing Tools</text> &nbsp;&nbsp; : &nbsp;&nbsp; CorelDraw ,&nbsp; Adobe Photoshop</li>
-			<li><text class="bold">Office</text> &nbsp;&nbsp; : &nbsp;&nbsp; Microsoft Office (Word, Excel, Access, Powerpoint, Publisher)</li>
+			<li><text class="bold">Cloud Platforms</text> &nbsp;&nbsp; : &nbsp;&nbsp; AWS(Amazon Web Services),&nbsp; DigitalOcean</li>
 			<li><text class="bold">Version Control</text> &nbsp;&nbsp; : &nbsp;&nbsp; Github ,&nbsp; BitBucket</li>
+			<li><text class="bold">Designing Tools</text> &nbsp;&nbsp; : &nbsp;&nbsp; CorelDraw ,&nbsp; Adobe Photoshop</li>
 		</ul>
 	</div>
 
-	<!--education and training-->
-	<div class="container mt-2 myBottom">
-		<h4 class="bold">Education And Training</h4>
+	<!--projects-->
+	<div class="container-fluid bg-dark myBorder">
+		<div class="container text-center" style="color: white"><h5 class="profExperience">Projects</h5></div>
 		<ul>
-			<li>Certificates in Python, C#, Java, HTML5, CSS3, Javascript, SQL(SoloLearn Online Academy 2018)</li>
-			<li>HEXCO Certificates in Computer Operations and Packages(2013)</li>
-			<li>Ordinary and Advanced Level Certificates (Zimbabwe School Examination Council)</li>
-			<li>Currently pursuing a Btech in Computer Science (Harare Institute Of Technology)</li>
+			<li><text class="bold">Trek Receipting</text> &nbsp;&nbsp; : &nbsp;&nbsp; A payments capturing system for Trek that can also
+				generate reports that can be directly imported into Pastel &nbsp; <text class="bold">(2019)</text>
+			</li>
+			<li><text class="bold">Trek Survey</text> &nbsp;&nbsp; : &nbsp;&nbsp; A mobile app that helps Trek do surveys and provide
+				analytics via an interactive web portal  &nbsp; <text class="bold">(2020)</text>
+			</li>
+			<li><text class="bold">Trek Fuel Finder</text> &nbsp;&nbsp; : &nbsp;&nbsp; Mobile app that shows fuel updates for Trek fuel
+				stations and broadcast them across Trek whatsapp groups. The system had hardware components for the updates
+				&nbsp; <text class="bold">(2019 - System Development was suspended)</text>
+			</li>
+			<li><text class="bold"><a href="https://www.blitztechelectronics.co.zw">BlitzTech Electronics</a> </text> &nbsp;&nbsp; : &nbsp;&nbsp; Company website with interactive shopping cart
+				with local payments integration ie Ecocash, OneMoney and Telecash  &nbsp; <text class="bold">(2019)</text></li>
+			<li><text class="bold"><a href="https://www.magwaro.co.zw.co.zw">Magwaro</a> </text> &nbsp;&nbsp; : &nbsp;&nbsp; Web application that simplifies the process of issuing of company certificates
+				&nbsp; <text class="bold">(2020)</text>
+			</li>
+			<li><text class="bold"><a href="https://www.pypi.org/project/BulkSmsZim/">BulkSmsZim Python Library</a> </text> &nbsp;&nbsp; : &nbsp;&nbsp; Open source library for sending sms's provided one sign's up for an account on BulkSmsZim
+				&nbsp; <text class="bold">(2019)</text>
+			</li>
 		</ul>
 	</div>
 
-	<!--border-->
-	<div class="container-fluid bg-dark mt-3 text-center last-border">
-		<button class="btn btn-md bg-transparent mb-2 download-btn" onclick="download()">
-			Download CV
-		</button>
-		<script>
-			function download() {
-				location.href='Chihota Marlvin.pdf';
-			}
-		</script>
-	</div>
+
 
 </div>
 <!--js-->
